@@ -22,6 +22,7 @@ public class Controle {
     
     /**
      * realiza a ação quando o botão é pressionado
+     * encapsulamento de método.
      */
     public void botaoPressionado(){
         botao.execute();
