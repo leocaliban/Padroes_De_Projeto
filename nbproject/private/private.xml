@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo1/Luz.java</file>
-            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo1/Command.java</file>
-            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo1/ComandoLigarLuz.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/ComandoDesligarLuz.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/Luz.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/Som.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/TesteControle.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/ComandoLigarSomETocarCD.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/ComandoLigarLuz.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/ComandoDesligarSom.java</file>
+            <file>file:/C:/Users/Leocaliban/Documents/NetBeansProjects/Padrões%20De%20Projeto/src/Command/Exemplo3/ControleRemoto.java</file>
         </group>
     </open-files>
 </project-private>

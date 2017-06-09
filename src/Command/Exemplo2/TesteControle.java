@@ -19,6 +19,7 @@ public class TesteControle {
         //o controle adiciona os comandos e invoca as ações
         controle.setComando(comandoAbrir);
         controle.botaoPressionado();
+        //mudando o comportamento do botão para comandar a luz
         controle.setComando(comandoLigar);
         controle.botaoPressionado();
     }
