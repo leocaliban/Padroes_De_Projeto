@@ -1,5 +1,5 @@
+package Command.Exemplo2;
 
-package Command.Exemplo1;
 /**
  * Interface Command será implementado em todas as classes que irão dar comando
  * aos seus objetos
