@@ -1,0 +1,15 @@
+package Command.Exemplo4;
+
+/**
+ * Interface Command será implementado em todas as classes que irão dar comando
+ * aos seus objetos
+ * Agora command possui um método refazer
+ * @author Leocaliban
+ */
+public interface Command {
+    /**
+     * Chamado para executar a ação no objeto através do comando
+     */
+    public void execute();
+    public void refazer();
+}

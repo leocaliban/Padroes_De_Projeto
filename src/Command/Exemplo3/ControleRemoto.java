@@ -12,10 +12,15 @@ public class ControleRemoto {
     
     /**
      * instancia as matrizes que são os botões on e off
+     * 7 foi escolhido para o modelo do livro mas poderia passar como parametro de entrada para o
+     * controle ter quantos slots for preciso
      */
     public ControleRemoto(){
         on = new Command[7];
         off = new Command[7];
+        //Polimorfismo para criar NoCommands
+        //preenchemos os slots do controle com comandos para que nao fiquem
+        //null, sendo assim estão esperando só algum objeto para ocupar o slot
         Command noCommand = new NoCommand();
         for (int i = 0;i<7;i++){
             on[i] = noCommand;
@@ -60,7 +65,7 @@ public class ControleRemoto {
         StringBuffer stringBuff = new StringBuffer();
         stringBuff.append("\n---------- Controle Remoto ----------\n");
         for (int i = 0; i<on.length;i++){
-            stringBuff.append("[Slot "+i+"] "+on[i].getClass().getName()+"    "+off[i].getClass().getName()+" \n");
+            stringBuff.append("[Slot "+i+"] "+on[i].getClass().getName()+"  |  "+off[i].getClass().getName()+" \n");
         }
         return stringBuff.toString();
     }

@@ -1,5 +1,5 @@
 
-package Command.Exemplo3;
+package Command.Exemplo4;
 
 /**
  *  Usado para preencher os slots que não serão usados no controle remoto
@@ -13,6 +13,11 @@ public class NoCommand implements Command {
     @Override
     public void execute() {
     
+    }
+
+    @Override
+    public void refazer() {
+       
     }
     
 }
