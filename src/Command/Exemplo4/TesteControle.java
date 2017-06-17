@@ -2,7 +2,7 @@ package Command.Exemplo4;
 
 /**
  * Classe que representa o Cliente para esse padrão 
- * contém o main
+ * Aqui testaremos o botão refazer
  * @author Leocaliban
  */
 public class TesteControle {
@@ -14,19 +14,21 @@ public class TesteControle {
         
         //adicionando a luz ao comando ligar luz
         ComandoLigarLuz comandoLigar = new ComandoLigarLuz(luz);
-        
+        //adicionando a luz ao comando desligar luz
         ComandoDesligarLuz comandoDesligar = new ComandoDesligarLuz(luz);
         
         //adicionando o comando ligar luz no controle
         controle.setComando(comandoLigar);
         //apertando o botao do controle
         controle.botaoPressionado();
-        
+        //apertando o botao refazer
         controle.botaoRefazerPressionado();
-        
+        System.out.println("FIM DO TESTE 1");
+        // vamos ligar, desligar e refazer o desligar.
+        controle.setComando(comandoLigar);
+        controle.botaoPressionado();
         controle.setComando(comandoDesligar);
         controle.botaoPressionado();
-        
         controle.botaoRefazerPressionado();
     }
 }
